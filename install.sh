@@ -5,4 +5,4 @@ curl -s "https://get.sdkman.io" | bash && source ~/.sdkman/bin/sdkman-init.sh &&
 curl -fL https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz | gzip -d > cs
 chmod +x cs
 ./install.fish
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && cp -R ./custom ~/.config/nvim/lua && nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && cp -R ./custom ~/.config/nvim/lua
