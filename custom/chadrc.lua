@@ -15,8 +15,7 @@ M.plugins = {
 		"akinsho/bufferline.nvim",
 		"feline-nvim/feline.nvim",
 	},
-        override = {
-        }
+	override = {},
 }
 
 M.ui = {

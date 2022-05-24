@@ -10,12 +10,14 @@ return {
 			end
 		end,
 	},
-	["romgrk/barbar.nvim"] = {},
-        ["scalameta/nvim-metals"] = {
-          ft = "scala",
-          after = "nvim-lua/plenary.nvim",
-          config = function()
-            vim.cmd([[autocmd FileType scala,sbt lua require("metals").initialize_or_attach({})]]) 
-          end,
-        },
+	["romgrk/barbar.nvim"] = {
+		after = "nvim-web-devicons",
+	},
+	["scalameta/nvim-metals"] = {
+		ft = "scala",
+		after = "plenary.nvim",
+		config = function()
+			vim.cmd([[autocmd FileType scala,sbt lua require("metals").initialize_or_attach({})]])
+		end,
+	},
 }
