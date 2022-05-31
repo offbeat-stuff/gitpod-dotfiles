@@ -20,4 +20,13 @@ return {
 			vim.cmd([[autocmd FileType scala,sbt lua require("metals").initialize_or_attach({})]])
 		end,
 	},
+         ["jose-elias-alvarez/null-ls.nvim"] = {
+                after = "nvim-lspconfig",
+                config = function()
+                        require("custom.plugins.null-ls").setup()
+                end,
+        },
+        ["alaviss/nim.nvim"] = {
+                ft = "nim",
+        },
 }
