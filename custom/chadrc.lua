@@ -16,6 +16,11 @@ M.plugins = {
 		"feline-nvim/feline.nvim",
 	},
 	override = {},
+        options = {
+          lspconfig = {
+            setup_lspconf = "custom.plugins.lspconfig",
+          },
+        },
 }
 
 M.ui = {
