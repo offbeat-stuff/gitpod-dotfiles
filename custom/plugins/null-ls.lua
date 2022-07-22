@@ -10,6 +10,7 @@ local sources = {
 
    -- Lua
    b.formatting.stylua,
+   b.formatting.nimpretty,
 
    -- Shell
    b.formatting.shfmt,
